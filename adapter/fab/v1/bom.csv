@@ -1,6 +1,6 @@
 Comment,Designator,Footprint,LCSC, LCSC, MPN, Manufacturer, DNP
 "10u","C2","Capacitor_SMD:C_0805_2012Metric","","C15850","CL21A106KAYNNNE","Samsung Electro-Mechanics",""
-"TBD","C3,C6","Capacitor_SMD:C_0402_1005Metric",""
+"20p","C3,C6","Capacitor_SMD:C_0402_1005Metric","","C1554","0402CG200J500NT","Guangdong Fenghua Advanced Tech",""
 "100n","C4,C8,C9,C10,C13,C11,C14,C16,C18,C17,C19,C12,C15","Capacitor_SMD:C_0402_1005Metric","","C1525","CL05B104KO5NNNC","Samsung Electro-Mechanics",""
 "1u","C7,C1,C5","Capacitor_SMD:C_0603_1608Metric","","C15849","CL10A105KB8NNNC","Samsung Electro-Mechanics",""
 "green","D1","LED_SMD:LED_0603_1608Metric","","C72043","19-217/GHC-YR1S2/3T","Everlight Elec",""
