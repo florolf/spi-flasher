@@ -166,7 +166,6 @@ Wire Wire Line
 	1650 6800 1600 6800
 Wire Wire Line
 	1650 6700 1600 6700
-NoConn ~ 1600 6900
 Wire Wire Line
 	4500 1100 4400 1100
 Wire Wire Line
@@ -1108,8 +1107,6 @@ NoConn ~ 5200 2750
 NoConn ~ 3900 2450
 NoConn ~ 3900 2550
 NoConn ~ 3900 2650
-NoConn ~ 3900 2750
-NoConn ~ 3900 2850
 NoConn ~ 3900 2950
 NoConn ~ 3900 3150
 NoConn ~ 3900 3350
@@ -1629,7 +1626,7 @@ Text Label 2400 3150 2    50   ~ 0
 USB_DP
 Text Label 2400 3650 2    50   ~ 0
 USB_DM
-Text Label 3850 3050 2    50   ~ 0
+Text Label 3850 2850 2    50   ~ 0
 TRST
 $Comp
 L Power_Protection:NUP4202 U2
@@ -1656,7 +1653,7 @@ Wire Wire Line
 NoConn ~ 2650 3200
 NoConn ~ 2650 3600
 Wire Wire Line
-	3900 3050 3850 3050
+	3900 2850 3850 2850
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D8AAFC9
@@ -1700,4 +1697,7 @@ Wire Wire Line
 Connection ~ 1650 5450
 Wire Wire Line
 	1650 5450 1300 5450
+NoConn ~ 3900 3050
+NoConn ~ 1600 6900
+NoConn ~ 3900 2750
 $EndSCHEMATC
